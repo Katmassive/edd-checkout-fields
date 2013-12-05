@@ -19,8 +19,9 @@
  * Version: 0.1.0
  */
 
-if ( !class_exists( 'Easy_Digital_Downloads' ) )
+if ( ! class_exists( 'Easy_Digital_Downloads' ) ) {
 	return;
+}
 
 /** Load a plugin's translated strings. */
 load_plugin_textdomain( 'edd-pfui', false, dirname( plugin_basename( __FILE__ ) ) . '/lang' );

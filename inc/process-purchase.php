@@ -2,9 +2,9 @@
 /**
  * Process purchase
  *
- * @author Webvorm <info@webvorm.nl>
+ * @author  Webvorm <info@webvorm.nl>
  * @license GPLv3
- * @link http://github.com/webvorm/edd-purchase-form-user-info
+ * @link    http://github.com/webvorm/edd-purchase-form-user-info
  */
 
 remove_action( 'edd_purchase_form_after_user_info', 'edd_user_info_fields' );
@@ -14,14 +14,16 @@ add_filter( 'edd_purchase_form_required_fields', 'edd_pfui_purchase_form_require
  * Purchase form required fields.
  *
  * @param $required_fields
+ *
  * @return array
  */
 function edd_pfui_purchase_form_required_fields( $required_fields ) {
 	$required_fields = array(
 		'edd_company' => array(
-			'error_id' => 'invalid_company',
+			'error_id'      => 'invalid_company',
 			'error_message' => __( 'Please enter your company name.', 'edd-pfui' )
 		),
+		/*
 		'edd_first' => array(
 			'error_id' => 'invalid_first_name',
 			'error_message' => __( 'Please enter your first name.', 'edd-pfui' )
@@ -70,6 +72,8 @@ function edd_pfui_purchase_form_required_fields( $required_fields ) {
 			'error_id' => 'invalid_date_end',
 			'error_message' => __( 'Please enter your event end date.', 'edd-pfui' )
 		)
+		*/
 	);
+
 	return $required_fields;
 }
