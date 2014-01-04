@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: EDD Purchase form user info\n"
-"POT-Creation-Date: 2013-11-06 03:47+0100\n"
-"PO-Revision-Date: 2013-11-06 03:48+0100\n"
+"POT-Creation-Date: 2013-11-30 23:18+0100\n"
+"PO-Revision-Date: 2013-11-30 23:19+0100\n"
 "Last-Translator: Cor van Noorloos <info@webvorm.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -17,54 +17,6 @@ msgstr ""
 
 #: inc/process-purchase.php:23
 msgid "Please enter your company name."
-msgstr ""
-
-#: inc/process-purchase.php:27
-msgid "Please enter your first name."
-msgstr ""
-
-#: inc/process-purchase.php:31
-msgid "Please enter your last name."
-msgstr ""
-
-#: inc/process-purchase.php:35
-msgid "Please enter your street name."
-msgstr ""
-
-#: inc/process-purchase.php:39
-msgid "Please enter your street number."
-msgstr ""
-
-#: inc/process-purchase.php:43
-msgid "Please enter your zip code."
-msgstr ""
-
-#: inc/process-purchase.php:47
-msgid "Please enter your city."
-msgstr ""
-
-#: inc/process-purchase.php:51
-msgid "Please enter your phone number."
-msgstr ""
-
-#: inc/process-purchase.php:55
-msgid "Please enter your email address."
-msgstr ""
-
-#: inc/process-purchase.php:59
-msgid "Please enter your event name."
-msgstr ""
-
-#: inc/process-purchase.php:63
-msgid "Please enter your event location."
-msgstr ""
-
-#: inc/process-purchase.php:67
-msgid "Please enter your event begin date."
-msgstr ""
-
-#: inc/process-purchase.php:71
-msgid "Please enter your event end date."
 msgstr ""
 
 #: inc/checkout/template.php:20
