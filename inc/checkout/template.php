@@ -19,14 +19,12 @@ function edd_pfui_user_info_fields() {
 	<fieldset>
 		<legend><?php _e( 'Company details', 'edd-pfui' ); ?></legend>
 		<p>
-			<label class="edd-label"><?php _e( 'Company name', 'edd-pfui' ); ?><?php if ( edd_field_is_required( 'edd_company' ) ): ?>
-					<span>*</span><?php endif; ?></label>
+			<label class="edd-label"><?php _e( 'Company name', 'edd-pfui' ); ?><?php if ( edd_field_is_required( 'edd_company' ) ) : ?><span>*</span><?php endif; ?></label>
 			<input class="edd-input required" id="edd-company" name="edd_company" type="text">
 		</p>
 
 		<p>
-			<label class="edd-label"><?php _e( 'Contact', 'edd-pfui' ); ?><?php if ( edd_field_is_required( 'edd_first' ) || edd_field_is_required( 'edd_last' ) ): ?>
-					<span>*</span><?php endif; ?></label>
+			<label class="edd-label"><?php _e( 'Contact', 'edd-pfui' ); ?><?php if ( edd_field_is_required( 'edd_first' ) || edd_field_is_required( 'edd_last' ) ) : ?><span>*</span><?php endif; ?></label>
 			<span>
 				<input class="edd-input required" id="edd-first" name="edd_first" placeholder="<?php _e( 'First name', 'edd-pfui' ); ?>" type="text" value="<?php echo is_user_logged_in() ? $user_data->first_name : ''; ?>">
 				<input class="edd-input required" id="edd-last" name="edd_last" placeholder="<?php _e( 'Last name', 'edd-pfui' ); ?>" type="text" value="<?php echo is_user_logged_in() ? $user_data->last_name : ''; ?>">
@@ -34,8 +32,7 @@ function edd_pfui_user_info_fields() {
 		</p>
 
 		<p>
-			<label class="edd-label"><?php _e( 'Address', 'edd-pfui' ); ?><?php if ( edd_field_is_required( 'edd_street' ) || edd_field_is_required( 'edd_number' ) ): ?>
-					<span>*</span><?php endif; ?></label>
+			<label class="edd-label"><?php _e( 'Address', 'edd-pfui' ); ?><?php if ( edd_field_is_required( 'edd_street' ) || edd_field_is_required( 'edd_number' ) ) : ?><span>*</span><?php endif; ?></label>
 			<span>
 				<input class="edd-input required" id="edd-street" name="edd_street" placeholder="<?php _e( 'Street', 'edd-pfui' ); ?>" type="text">
 				<input class="edd-input required" id="edd-number" name="edd_number" placeholder="<?php _e( 'Number', 'edd-pfui' ); ?>" type="number">
@@ -44,8 +41,7 @@ function edd_pfui_user_info_fields() {
 		</p>
 
 		<p>
-			<label class="edd-label"><?php _e( 'Zip code and city', 'edd-pfui' ); ?><?php if ( edd_field_is_required( 'edd_zip' ) || edd_field_is_required( 'edd_city' ) ): ?>
-					<span>*</span><?php endif; ?></label>
+			<label class="edd-label"><?php _e( 'Zip code and city', 'edd-pfui' ); ?><?php if ( edd_field_is_required( 'edd_zip' ) || edd_field_is_required( 'edd_city' ) ) : ?><span>*</span><?php endif; ?></label>
 			<span>
 				<input class="edd-input required" id="edd-zip" name="edd_zip" placeholder="<?php _e( 'Zip code', 'edd-pfui' ); ?>" type="text">
 				<input class="edd-input required" id="edd-city" name="edd_city" placeholder="<?php _e( 'City', 'edd-pfui' ); ?>" type="text">
@@ -53,8 +49,7 @@ function edd_pfui_user_info_fields() {
 		</p>
 
 		<p>
-			<label class="edd-label"><?php _e( 'Phone', 'edd-pfui' ); ?><?php if ( edd_field_is_required( 'edd_phone' ) ): ?>
-					<span>*</span><?php endif; ?></label>
+			<label class="edd-label"><?php _e( 'Phone', 'edd-pfui' ); ?><?php if ( edd_field_is_required( 'edd_phone' ) ) : ?><span>*</span><?php endif; ?></label>
 			<input class="edd-input required" id="edd-phone" name="edd_phone" type="tel">
 		</p>
 
@@ -69,8 +64,7 @@ function edd_pfui_user_info_fields() {
 		</p>
 
 		<p>
-			<label class="edd-label"><?php _e( 'Email', 'edd-pfui' ); ?><?php if ( edd_field_is_required( 'edd_email' ) ): ?>
-					<span>*</span><?php endif; ?></label>
+			<label class="edd-label"><?php _e( 'Email', 'edd-pfui' ); ?><?php if ( edd_field_is_required( 'edd_email' ) ) : ?><span>*</span><?php endif; ?></label>
 			<input class="edd-input required" id="edd-email" name="edd_email" type="email" value="<?php echo is_user_logged_in() ? $user_data->user_email : ''; ?>">
 		</p>
 
@@ -82,14 +76,12 @@ function edd_pfui_user_info_fields() {
 	<fieldset>
 		<legend><?php _e( 'Event details', 'edd-pfui' ); ?></legend>
 		<p>
-			<label class="edd-label"><?php _e( 'Event', 'edd-pfui' ); ?><?php if ( edd_field_is_required( 'edd_event' ) ): ?>
-					<span>*</span><?php endif; ?></label>
+			<label class="edd-label"><?php _e( 'Event', 'edd-pfui' ); ?><?php if ( edd_field_is_required( 'edd_event' ) ) : ?><span>*</span><?php endif; ?></label>
 			<input class="edd-input required" id="edd-event" name="edd_event" type="text">
 		</p>
 
 		<p>
-			<label class="edd-label"><?php _e( 'Location', 'edd-pfui' ); ?><?php if ( edd_field_is_required( 'edd_location' ) ): ?>
-					<span>*</span><?php endif; ?></label>
+			<label class="edd-label"><?php _e( 'Location', 'edd-pfui' ); ?><?php if ( edd_field_is_required( 'edd_location' ) ) : ?><span>*</span><?php endif; ?></label>
 			<input class="edd-input required" id="edd-location" name="edd_location" type="text">
 		</p>
 
@@ -99,8 +91,7 @@ function edd_pfui_user_info_fields() {
 		</p>
 
 		<p>
-			<label class="edd-label"><?php _e( 'Begin date', 'edd-pfui' ); ?><?php if ( edd_field_is_required( 'edd_date_begin' ) ): ?>
-					<span>*</span><?php endif; ?></label>
+			<label class="edd-label"><?php _e( 'Begin date', 'edd-pfui' ); ?><?php if ( edd_field_is_required( 'edd_date_begin' ) ) : ?><span>*</span><?php endif; ?></label>
 			<span>
 				<input class="edd-input required" id="edd-date-begin" name="edd_date_begin" placeholder="<?php _e( 'Date', 'edd-pfui' ); ?>" type="text">
 				<input class="edd-input" id="edd-time-begin" name="edd_time_begin" placeholder="<?php _e( 'Time', 'edd-pfui' ); ?>" type="text">
@@ -108,8 +99,7 @@ function edd_pfui_user_info_fields() {
 		</p>
 
 		<p>
-			<label class="edd-label"><?php _e( 'End date', 'edd-pfui' ); ?><?php if ( edd_field_is_required( 'edd_date_end' ) ): ?>
-					<span>*</span><?php endif; ?></label>
+			<label class="edd-label"><?php _e( 'End date', 'edd-pfui' ); ?><?php if ( edd_field_is_required( 'edd_date_end' ) ) : ?><span>*</span><?php endif; ?></label>
 			<span>
 				<input class="edd-input required" id="edd-date-end" name="edd_date_end" placeholder="<?php _e( 'Date', 'edd-pfui' ); ?>" type="text">
 				<input class="edd-input" id="edd-time-end" name="edd_time_end" placeholder="<?php _e( 'Time', 'edd-pfui' ); ?>" type="text">
