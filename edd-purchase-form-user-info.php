@@ -11,7 +11,7 @@
  * Author URI: http://webvorm.nl/
  * Author: Webvorm
  * Description:
- * Domain Path: lang
+ * Domain Path: languages
  * License: GPLv3
  * Plugin Name: EDD Purchase form user info
  * Plugin URI: http://github.com/webvorm/edd-purchase-form-user-info
@@ -24,7 +24,7 @@ if ( ! class_exists( 'Easy_Digital_Downloads' ) ) {
 }
 
 /** Load a plugin's translated strings. */
-load_plugin_textdomain( 'edd-pfui', false, dirname( plugin_basename( __FILE__ ) ) . '/lang' );
+load_plugin_textdomain( 'edd-pfui', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
 
 require_once plugin_dir_path( __FILE__ ) . 'inc/checkout/template.php';
 require_once plugin_dir_path( __FILE__ ) . 'inc/emails/template.php';
