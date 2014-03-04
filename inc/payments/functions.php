@@ -9,7 +9,7 @@
 
 add_filter( 'edd_payment_meta', 'edd_pfui_payment_meta', 10, 2 );
 /**
- * Record the payment details.
+ * Record the payment details
  *
  * @param $payment_meta
  *

@@ -9,7 +9,7 @@
 
 add_filter( 'edd_email_template_tags', 'edd_pfui_email_template_tags', 10, 3 );
 /**
- * Email template tags.
+ * Email template tags
  *
  * @param $message
  * @param $payment_data
