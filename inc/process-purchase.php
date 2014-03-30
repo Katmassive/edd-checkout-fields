@@ -3,7 +3,7 @@
  * Process purchase
  *
  * @author  Webvorm <info@webvorm.nl>
- * @license GPLv3
+ * @license GPLv2 or later
  * @link    http://github.com/webvorm/edd-purchase-form-user-info
  */
 

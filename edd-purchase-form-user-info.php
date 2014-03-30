@@ -3,16 +3,15 @@
  * EDD Purchase Form User Info
  *
  * @author  Webvorm <info@webvorm.nl>
- * @license GPLv3
+ * @license GPLv2 or later
  * @link    http://github.com/webvorm/edd-purchase-form-user-info
- * @version 0.1.0
  *
  * @wordpress-plugin
  * Author URI: http://webvorm.nl/
  * Author: Webvorm
  * Description: Adding custom fields to the Easy Digital Downloads checkout screen. A minimal <a href="http://easydigitaldownloads.com/">Easy Digital Downloads</a> add-on.
  * Domain Path: languages
- * License: GPLv3
+ * License: GPLv2 or later
  * Plugin Name: EDD Purchase Form User Info
  * Plugin URI: http://github.com/webvorm/edd-purchase-form-user-info
  * Text Domain: edd-purchase-form-user-info
